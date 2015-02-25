@@ -3,7 +3,7 @@
  *
  *       Filename:  T9DT.h
  *
- *    Description:  Header files that contain hold what a trie can do, and the 
+ *    Description:  Header files that contain hold what a trie can do, and the
  *    			    alphabet-sequence translator array.
  *
  *        Version:  1.0
@@ -11,8 +11,7 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  Mochamad Pranand (), 
- *    Information:  CSE 374 Winter 2015 HW 5  
+ *         Author:  Mochamad Pranand (),
  *
  * =====================================================================================
  */
@@ -24,7 +23,7 @@
 extern const int CHAR_ARRAY[26];
 
 // Prototypes
-Node* addWord(Node*, char*);
-void traverseTrie(Node*, char*);
-Node* buildTrie(char*);
-#endif 
+Node *addWord(Node *, char *);
+void traverseTrie(Node *, char *);
+Node *buildTrie(char *);
+#endif
